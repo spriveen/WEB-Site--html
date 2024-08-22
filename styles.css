@@ -59,4 +59,18 @@ p{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    grid-template-rows: 300px 300px;
+   gap: 2rem;
+   position: absolute;
+   top: 550px;
+   width: 50%;
+   justify-content: center;
+}
+.grid-items > :nth-child(2){
+    grid-row: span 2;
+}
+.hero-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
