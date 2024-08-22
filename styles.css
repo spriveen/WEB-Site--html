@@ -54,3 +54,9 @@ h1{
 p{
     opacity: 0.5;
 }
+/* hero image */
+.grid-items{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 300px 300px;
+}
